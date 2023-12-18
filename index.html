@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Social Media Selector</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Social Media Selector</h1>
+        <div class="social-media-list">
+            <label for="socialMediaSelect">Select a Social Media Platform:</label>
+            <select id="socialMediaSelect">
+                <option value="facebook">Facebook</option>
+                <option value="twitter">Twitter</option>
+                <option value="instagram">Instagram</option>
+                <option value="linkedin">LinkedIn</option>
+                <!-- Add more social media options as needed -->
+            </select>
+        </div>
+        <button onclick="showSelectedPlatform()">Show Selected Platform</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
